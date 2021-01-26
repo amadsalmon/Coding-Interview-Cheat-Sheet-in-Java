@@ -21,11 +21,11 @@ A list of useful information and code snippets to be well-prepared for your codi
 
 ### Array
 
-### HashMap
+#### HashMap
 
-### HashSet 
+#### HashSet 
 
-#### Constructors
+##### Constructors
 
 ```java
 HashSet<E> hs = new HashSet<E>();
@@ -44,7 +44,7 @@ HashSet<E> hs = new HashSet<E>(int initialCapacity, float loadFactor);
 HashSet<E> hs = new HashSet<E>(Collection C);
 ```
 
-#### Methods
+##### Methods
 ```java
 add();
 ```
@@ -61,9 +61,10 @@ size();
 isEmpty();
 ```
 ```java
+
 ```
 
-#### Example
+##### Example
 
 ```java
 // Instantiate an object of HashSet 
@@ -78,10 +79,40 @@ hs.add("A"); // returns 'false' as "A" was already in the Set
 
 
 
+### List
+#### LinkedList
 
-### LinkedList
+#### ArrayList
 
-### ArrayList
 
-### 
+
+## Algorithms
+
+### Arrays
+
+### Binary
+
+### Dynamic Programming
+
+### Graphs
+
+### Heaps
+
+### LinkedLists
+
+### Matrixes
+
+### Queues
+
+### Sorting
+
+### Searching
+
+### Stacks
+
+### Strings
+
+### Trees
+
+
 
