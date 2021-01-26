@@ -90,7 +90,19 @@ hs.add("A"); // returns 'false' as "A" was already in the Set
 
 ### Arrays
 
+#### 
+
+
+
 ### Binary
+
+-   Test kth bit is set: `num & (1 << k) != 0`.
+-   Set kth bit: `num |= (1 << k)`.
+-   Turn off kth bit: `num &= ~(1 << k)`.
+-   Toggle the kth bit: `num ^= (1 << k)`.
+-   To check if a number is a power of 2, `num & num - 1 == 0`.
+
+
 
 ### Dynamic Programming
 
@@ -99,6 +111,21 @@ hs.add("A"); // returns 'false' as "A" was already in the Set
 ### Heaps
 
 ### LinkedLists
+
+#### Notes
+
+#### Common approaches
+
+-   Getting the kth from last node - Have two pointers, where one is k nodes ahead of the other. When the node ahead reaches the end, the other node is k nodes behind
+-   Detecting cycles - Have two pointers, where one pointer increments twice as much as the other, if the two pointers meet, means that there is a cycle
+-   Getting the middle node - Have two pointers, where one pointer increments twice as much as the other. When the faster node reaches the end of the list, the slower node will be at the middle
+
+#### Edge cases
+
+-   Single node
+-   Two nodes
+-   Linked list has cycle. 
+    **Tip:** Clarify with the interviewer whether there can be a cycle in the list. Usually the answer is no
 
 ### Matrixes
 
